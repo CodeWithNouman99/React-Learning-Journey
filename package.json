@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "form",
+=======
+  "name": "state-lifting",
+>>>>>>> 9dfb8518ea913279ca648ef4779c4a81e733bfb3
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +14,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-hook-form": "^7.71.1"
+=======
+    "@tailwindcss/vite": "^4.1.18",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.18"
+>>>>>>> 9dfb8518ea913279ca648ef4779c4a81e733bfb3
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

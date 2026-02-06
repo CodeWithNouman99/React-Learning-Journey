@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./App.css";
 // import { useForm } from "react-hook-form";
 import JobApplicationForm from "./components/JobApplicationForm";
@@ -51,3 +52,24 @@ function App() {
   );
 }
 export default App;
+=======
+import { useState } from 'react'
+import './App.css'
+import Card from './Components/Card'
+function App() {
+//Manage State
+//Create State
+//Change State
+//Sabhi child me state ko sync karwadonga
+const [name,setname]=useState("")
+  return (
+    <>
+      <h1 className='bg-amber-300 text-4xl border-4 mt-15 w-full text-center'>State Lifting!</h1>
+      <Card name={name} setname={setname}></Card>
+      <p>I am inside Parent Component value of name is: {name}</p>
+    </>
+  )
+}
+
+export default App
+>>>>>>> 9dfb8518ea913279ca648ef4779c4a81e733bfb3
