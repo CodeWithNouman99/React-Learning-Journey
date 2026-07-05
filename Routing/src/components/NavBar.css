@@ -1,0 +1,15 @@
+ul
+{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  background-color: beige;
+  color: black;
+  font-size: x-large;
+}
+.active-link
+{
+  border: 3px solid red;
+}
